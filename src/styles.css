@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+}
+
+.site {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 350px 1fr;
+    grid-row: 175px 1fr;
+}
+
+#todo {
+    background-color: #F3F7EC;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
