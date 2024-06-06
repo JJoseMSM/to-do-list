@@ -1,8 +1,9 @@
 import './styles.css';
 import { toDo } from './todo';
-import { todoForm } from './addTodo';
+import { todoForm, addTodo } from './addTodo';
 
 
 toDo();
 todoForm();
+addTodo();
 
