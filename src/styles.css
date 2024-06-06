@@ -2,6 +2,13 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: 'Lemon';
+    font-style: normal;
+    font-weight: 400;
+    src: url(./LEMONMILK-Medium.otf);
+}
+
 .site {
     display: grid;
     height: 100vh;
@@ -13,4 +20,45 @@
     background-color: #F3F7EC;
     grid-column: 1/2;
     grid-row: 1/4;
+}
+
+/* To do section */
+
+.title {
+    text-align: center;
+    color: #E88D67;
+    font-family: 'Lemon';
+    margin-top: 20px;
+}
+
+.description {
+    text-align: center;
+    color: #E88D67;
+    font-family: 'Lemon';
+    margin-top: 10px;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+/*To do Logic section */
+
+.todoLabel {
+    margin-left: 1rem;
+    font-family: 'Lemon';
+    color: #E88D67;
+    font-size: 13px;
+}
+
+.todoInput {
+    padding: 3px 8px;
+}
+
+.addButton {
+    margin-left: 5px;
+    background-color: #006989;
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-decoration: none;
+    cursor: pointer;
 }

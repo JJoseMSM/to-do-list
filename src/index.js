@@ -1,3 +1,8 @@
 import './styles.css';
+import { toDo } from './todo';
+import { todoForm } from './addTodo';
 
-console.log('Hola, Webpack!');
+
+toDo();
+todoForm();
+
