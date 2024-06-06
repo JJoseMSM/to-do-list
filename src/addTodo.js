@@ -61,7 +61,22 @@ export function addTodo() {
             let todoDelete = document.createElement('button');
             todoDelete.textContent = 'Delete';
             todoDelete.setAttribute('class', 'todoDelete');
+            todoDelete.setAttribute('id', 'todoDelete');
+            todoDelete.addEventListener('click', function() {
+                todoCard.remove();
+            });
             todoCard.appendChild(todoDelete);
+
+            let todoCompleted = document.createElement('p');
+            todoCompleted.textContent = 'Complete';
+            todoCompleted.setAttribute('class', 'todoComplete');
+            let todoCheckmark = document.createElement('input');
+            todoCheckmark.type = 'checkbox';
+            todoCheckmark.name = 'name';
+            todoCheckmark.value = 'value';
+            todoCheckmark.setAttribute('class', 'todoCheckmark');
+            todoCard.appendChild(todoCompleted);
+            todoCompleted.appendChild(todoCheckmark);
         });
     });
 }
