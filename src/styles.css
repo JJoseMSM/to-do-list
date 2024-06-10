@@ -19,13 +19,20 @@ body{
     background-color: #F3F7EC;
     grid-column: 1 / 1;
     grid-row: 1 / 8;
+    overflow: scroll;
 }
 
 #navbar {
-    background-color: #333;
+    background-color: #006989;
     overflow: hidden;
     grid-column: 2 / 5;
     grid-row: 1 / 1;
+}
+
+#projects {
+    background-color: #fff;
+    grid-column: 2/5;
+    grid-row: 2/7;
 }
 
 
@@ -110,3 +117,19 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+/* test */
+
+.hidden {
+    display: none;
+  }
+  
+  #form-container {
+    margin-top: 20px;
+  }
+  
+  #data-container {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
